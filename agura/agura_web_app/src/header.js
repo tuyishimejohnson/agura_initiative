@@ -43,19 +43,37 @@ const Header = () => {
             <button className='border bg-color_3 px-8 py-5 rounded-sm hover:bg-color_5'>Explore more</button>
         </div>
 
-        <div className='bg-color_6 mt-12 space-x-3'>
+        <div className='bg-color_6 mt-12'>
         {/* <h2 className='text-center w-1/4'>About</h2> */}
-                <div className='flex'>
-                    <p className='flex items-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa aperiam laboriosam voluptas ullam corrupti labore eos expedita libero itaque, ea minus deleniti cumque suscipit aspernatur sed pariatur illo omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora optio eos rem, exercitationem esse est recusandae sed id. Consequuntur rem reiciendis mollitia libero et fugiat ipsam eaque totam? Ratione, natus.</p>
-                    <img src={require('./socialMedia.jpg')} alt="" className='w-2/4 rounded-full'/>
+                <div className='flex relative'>
+                    <p className='flex items-center p-8 text-3xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa aperiam laboriosam voluptas ullam corrupti labore eos expedita libero itaque, ea minus deleniti cumque suscipit aspernatur sed pariatur illo omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    
+                    <img src={require('./socialMedia.jpg')} alt="" className='w-2/4 h-auto brightness-50'/>
+                    <p className='absolute w-2/4 right-0 justify-center text-center top-20 text-white rounded-md font-light'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem velit id asperiores, accusamus laudantium voluptatibus ipsam eum similique ipsum dignissimos error rem labore tempore! Laboriosam voluptates culpa dolore at autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, molestiae qui. Dolorum, quod id vel ratione harum, architecto velit illo sunt porro, numquam laborum fuga molestias pariatur illum doloremque. Id?</p>
                 </div>
         </div> 
             
 
             <div className='flex'>
                 <div className='bg-gray-300 w-2/4'>
-                    <h2 className='text-3xl font-semibold'>Reach to Us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum expedita dicta vero commodi nisi. Voluptas quasi illo recusandae voluptatem necessitatibus sunt expedita debitis dignissimos. Ut totam aspernatur debitis id incidunt.</p>
+                    <h2 className='text-3xl font-semibold'>Reach Us</h2>
+
+                    <div className='flex justify-center'>
+                        <form action="" className='space-y-2 w-full mx-8'>
+                            
+                        <div className='flex items-center'><label htmlFor="names">Full names<span className='text-red-500'>*</span></label></div>
+                            <input type="text" placeholder='Ex: Nzaramba Innocent' id='names' required className='size-12 w-full p-3'/>
+                        
+                            <div className='flex items-center'><label htmlFor="message">Email<span className='text-red-500'>*</span></label></div>
+                            <input type="text" placeholder='Example: sample@gmail.com' id='email' required className='size-12 w-full p-3'/>
+                            <div className='flex items-center'><label htmlFor="message">Message<span className='text-red-500'>*</span></label></div>
+                            <input type="text" placeholder='Your message here' id='message' required className='size-48 w-full'/>
+                            <div>
+                                <button type='submit'>Submit</button>
+                            </div>
+                            
+                        </form>
+                    </div>
                 </div>
                 <div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.5535042083015!2d30.150342673212172!3d-1.9306257366661421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca77688d3131f%3A0x3a65f6d29a33c0d3!2sAfrican%20Leadership%20University!5e0!3m2!1sen!2srw!4v1707725171152!5m2!1sen!2srw" 
