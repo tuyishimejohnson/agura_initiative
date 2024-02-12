@@ -5,8 +5,9 @@
 @import 'tailwindcss/utilities';
 
 body {
-  /* background-color: #e5e7eb; */
-  height: 1500px;
+  background-color: #dee0e3;
   font-family: 'Poppins', sans-serif;
+  height: 1500px;
 }
+
 
