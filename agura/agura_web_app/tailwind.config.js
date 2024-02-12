@@ -11,7 +11,10 @@ module.exports = {
         color_3: '#98b0aa',
         color_4: '#bab28d',
         color_5: '#b4d3cc',
-        color_6: '#c3c5ca'
+        color_6: '#c3c5ca',
+        color_8: '#bab5a1',
+        color_9: '#00000',
+        color_10: '#00000'
       }
     },
   },
