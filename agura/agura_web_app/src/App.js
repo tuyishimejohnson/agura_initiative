@@ -1,4 +1,5 @@
-import Header from './header';
+import Header from './homepage';
+import About from './about';
 import './index.css'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       
       < Header />
+      < About />
     </div>
   );
 }

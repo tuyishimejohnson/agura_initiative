@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
+import { faThumbTack } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
   return (
@@ -28,22 +29,26 @@ const Header = () => {
                 <img src={require('./5e8caed9e3160c5a7fe56547_nesa-by-makers-kwzWjTnDPLk-unsplash-min_40_1_45.jpg')} alt="" className='w-2/4'/> 
                 <p className='justify-center items-center flex text-center w-2/4 font-extrabold text-4xl'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsa quasi eos provident laboriosam. Ex porro corporis voluptatibus </p>
             </div>
-                <div className='flex absolute top-3/4 space-x-5 px-4'>
+                <div className='flex absolute top-3/4 space-x-5 mx-6'>
                     <div className='bg-color_4 rounded-md ring-offset-blue-400 shadow-xl'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minus non quisquam harum corrupti velit, tempora repellendus alias nihil dolore repellat eveniet autem inventore. Molestiae aliquam commodi doloribus voluptate fuga?</p>
-                        <FontAwesomeIcon icon={faLongArrowAltRight}/> Learn more
+                        < FontAwesomeIcon icon={faThumbTack} className='p-4'/>
+                        <p className='text-center px-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minus non quisquam harum corrupti velit, tempora repellendus alias nihil dolore repellat eveniet autem inventore. Molestiae aliquam commodi doloribus voluptate fuga?</p>
+                        <button className='py-4 hover:text-gray-500'><FontAwesomeIcon icon={faLongArrowAltRight}className='px-4'/>Learn more </button>
                     </div>
                     <div className='bg-color_4 rounded-md ring-offset-blue-400 shadow-xl'>
-                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minus non quisquam harum corrupti velit, tempora repellendus alias nihil dolore repellat eveniet autem inventore. Molestiae aliquam commodi doloribus voluptate fuga? </p>
-                        <FontAwesomeIcon icon={faLongArrowAltRight}/> Learn more
+                        < FontAwesomeIcon icon={faThumbTack} className='p-4'/>
+                        <p className='text-center px-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minus non quisquam harum corrupti velit, tempora repellendus alias nihil dolore repellat eveniet autem inventore. Molestiae aliquam commodi doloribus voluptate fuga?</p>
+                        <button className='py-4 hover:text-gray-500'><FontAwesomeIcon icon={faLongArrowAltRight} className='px-4'/>Learn more </button>
                     </div>
                     <div className='bg-color_4 rounded-md ring-offset-blue-400 shadow-xl'>
-                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minus non quisquam harum corrupti velit, tempora repellendus alias nihil dolore repellat eveniet autem inventore. Molestiae aliquam commodi doloribus voluptate fuga?</p>
-                        <FontAwesomeIcon icon={faLongArrowAltRight}/> Learn more
+                        < FontAwesomeIcon icon={faThumbTack} className='p-4'/>
+                        <p className='text-center px-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minus non quisquam harum corrupti velit, tempora repellendus alias nihil dolore repellat eveniet autem inventore. Molestiae aliquam commodi doloribus voluptate fuga?</p>
+                        <button className='py-4 hover:text-gray-500'><FontAwesomeIcon icon={faLongArrowAltRight} className='px-4'/>Learn more </button>
                     </div>
+                    
                 </div>
         </div>
-        <div className='mt-36 text-center'>
+        <div className='mt-64  text-center'>
             <button className='border bg-color_3 px-8 py-5 rounded-sm hover:bg-color_5'>Explore more</button>
         </div>
 
@@ -73,7 +78,7 @@ const Header = () => {
                             <div className='block w-full'><label htmlFor="message">Message<span className='text-red-500'>*</span></label></div>
                             <textarea name="message" id="message" cols="30" rows="10" placeholder='Message' className='block w-full p-3'></textarea>
                             <div className='mt-6'>
-                                <button type='submit' className='border border-slate-400 px-10 py-4'>Submit</button>
+                                <button type='submit' className='border  rounded px-10 py-4 bg-gray-600 text-color_1 hover:border-slate-600 hover:bg-transparent hover:text-gray-600'>Submit</button>
                             </div>
                         </form>
                     </div>
