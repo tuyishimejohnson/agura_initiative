@@ -12,16 +12,16 @@ const Layout = () => {
                 <nav className='flex space-x-5'>
                     <ul><li><Link to='/'>Home</Link></li></ul>
                     <ul><li><Link to='/about'>About</Link></li></ul>
-                    <ul><li><Link to='/'>Services</Link></li></ul>
-                    <ul><li><Link to='/'>Contact Us</Link></li></ul>
+                    <ul><li><Link to='/services'>Services</Link></li></ul>
+                    <ul><li><Link to='/contacts'>Contact Us</Link></li></ul>
                 </nav>
-      
             </div>
             <div className='space-x-6'>
                 <button>Login</button>
                 <button>Sign Up</button>
             </div>
         </div>
+        
         < Outlet />
     </>
     
