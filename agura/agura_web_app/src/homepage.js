@@ -3,13 +3,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
 import { faThumbTack } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
+import { useRef, useEffect } from 'react'
 
 
 const HomePage = () => {
+    const headerRef = useRef(null);
+    useEffect(() => {
+        if(headerRef.current) {
+            headerRef.current.scrollIntoView({behavior: 'smooth'});
+        }
+    }, [])
   return (
     <>
         <div>
-            <div className=''>
+            <div className='' ref={headerRef}>
                 <div className='flex space-x-8 pr-8 mt-12 relative'>
                     <img src={require('./5e8caed9e3160c5a7fe56547_nesa-by-makers-kwzWjTnDPLk-unsplash-min_40_1_45.jpg')} alt="" className='w-2/4'/> 
                     <p className='justify-center items-center flex text-center w-2/4 font-extrabold text-4xl'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsa quasi eos provident laboriosam. Ex porro corporis voluptatibus </p>

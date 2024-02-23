@@ -1,11 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import backgroundImage from './Manufacturing-tech-Jan-18-2023-web.png'
+import { useRef, useEffect } from 'react';
 
 const About = () => {
+    const headerRef = useRef(null);
+    useEffect(() => {
+        if(headerRef.current) {
+            headerRef.current.scrollIntoView({behavior: 'smooth'});
+        }
+    }, [])
   return (
     <>
-        <div className='bg-no-repeat bg-contain' style={{backgroundImage:`url(${backgroundImage})`}}>
+        <div className='bg-no-repeat bg-contain' style={{backgroundImage:`url(${backgroundImage})`}} ref={headerRef}>
         <div>
             <div className='pt-36 w-full text-white'>
                 <h1 className='text-center text-3xl font-medium'>This is About us</h1>
