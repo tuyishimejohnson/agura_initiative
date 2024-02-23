@@ -1,15 +1,20 @@
-import Header from './homepage';
-import About from './about';
+import HomePage from './homepage';
 import './index.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import About from './about';
+import Layout from './layout';
 
 function App() {
   return (
-    <div className="App">
-      
-      < Header />
-      < About />
-    </div>
-  );
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={< Layout />}>
+            <Route index element={<HomePage/>}/>
+            <Route path='about' element={< About />}/>
+          </Route>
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App;
