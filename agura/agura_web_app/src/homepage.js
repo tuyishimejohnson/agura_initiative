@@ -41,7 +41,7 @@ const HomePage = () => {
                     </div>
             </div>
             <div className='mt-64  text-center'>
-                <button className='border bg-color_3 px-8 py-5 rounded-sm hover:bg-color_5'>Explore more</button>
+                <button className='border bg-color_3 px-8 py-5 rounded-lg hover:bg-color_5 hover:translate-y-2 transform transition'>Explore more</button>
             </div>
 
             <div className='bg-color_6 mt-12'>
@@ -62,14 +62,14 @@ const HomePage = () => {
                         <form action="" className='space-y-2 w-full mx-8'>
                             
                         <div className='flex items-center'><label htmlFor="names">Full names<span className='text-red-500'>*</span></label></div>
-                            <input type="text" placeholder='Ex: Nzaramba Innocent' id='names' required className='block w-full p-3'/>
+                            <input type="text" placeholder='Ex: Nzaramba Innocent' id='names' required className='block w-full p-3 focus:outline-none focus:ring-1 focus:border-gray-400 rounded-full'/>
                         
                             <div className='block w-full'><label htmlFor="message">Email<span className='text-red-500'>*</span></label></div>
-                            <input type="text" placeholder='Ex: sample@gmail.com' id='email' required className='block w-full p-3'/>
+                            <input type="text" placeholder='Ex: sample@gmail.com' id='email' required className='block w-full p-3 focus:outline-none focus:ring-1 focus:border-gray-400 rounded-full'/>
                             <div className='block w-full'><label htmlFor="message">Message<span className='text-red-500'>*</span></label></div>
-                            <textarea name="message" id="message" cols="30" rows="10" placeholder='Message' className='block w-full p-3'></textarea>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder='Message' className='block w-full p-3 focus:outline-none focus:ring-1 focus:border-gray-400 rounded'></textarea>
                             <div className='mt-6'>
-                                <button type='submit' className='border  rounded px-10 py-4 bg-gray-600 text-color_1 hover:border-slate-600 hover:bg-transparent hover:text-gray-600'>Submit</button>
+                                <button type='submit' className='border  rounded px-10 py-4 bg-gray-600 text-color_1 hover:border-slate-600 hover:bg-transparent hover:text-gray-600 hover:translate-x-2 transition transform'>Submit</button>
                             </div>
                         </form>
                     </div>
