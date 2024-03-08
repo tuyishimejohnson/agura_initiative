@@ -5,6 +5,7 @@ import About from './about';
 import Layout from './layout';
 import Contacts from './contacts';
 import Services from './services';
+import Footer from './footer';
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
             <Route path='services' element={< Services />}/>
           </Route>
       </Routes>
+      <Footer></Footer>
     </BrowserRouter>
+   
   )
 }
 
