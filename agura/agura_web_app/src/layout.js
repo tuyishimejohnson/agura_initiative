@@ -15,7 +15,7 @@ const Layout = () => {
     <>
     
         <div className='flex justify-around border top-0 bg-gray-300 right-0 left-0 items-center fixed z-10' ref={headerRef}>
-            <img src={require('./Untitled (1).png')} alt="" className='w-12'/>
+            <img src={require('./Untitled (1).png')} alt="" className='w-14'/>
             <div>
                 <nav className='flex space-x-5 '>
                     <ul className='navigation'><li><Link to='/'>Home</Link></li></ul>

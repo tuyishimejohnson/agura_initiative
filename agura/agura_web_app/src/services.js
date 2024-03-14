@@ -11,7 +11,7 @@ const Services = () => {
     }, [])
 
   return (
-    <div className='' ref={headerRef} style={{paddingTop: '3rem'}}>
+    <div className='' ref={headerRef} style={{paddingTop: '4rem'}}>
       <h2 className='mx-40 text-3xl py-4'>Services Offered</h2>
       <div className='grid grid-cols-2 gap-x-6 gap-y-6 mx-32'>
         <div className='shadow-md shadow-gray rounded-2xl'>
