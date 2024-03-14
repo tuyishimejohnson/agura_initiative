@@ -1,0 +1,19 @@
+.navigation {
+    position: relative;
+}
+
+.navigation::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    border-radius: 3px;
+    left: 0;
+    bottom: -4px;
+    background-color: rgb(108, 108, 227);
+    transition: all .3s;
+}
+
+.navigation:hover::before {
+    width: 100%;
+}
