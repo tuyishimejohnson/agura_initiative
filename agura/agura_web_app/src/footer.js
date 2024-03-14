@@ -7,10 +7,10 @@ const Footer = () => {
     <>
       <div className='flex'>
                 <div className=' w-2/4'>
-                    <h2 className='text-3xl font-semibold p-7'>Reach Us</h2>
+                    <h2 className='text-3xl font-semibold pt-7 pl-5'>Reach Us</h2>
 
-                    <div className='flex justify-center my-8'>
-                        <form action="" className='space-y-2 w-full mx-8'>
+                    <div className='flex justify-center my-8 bg-gray-500'>
+                        <form action="" className='space-y-2 w-full mx-8 py-8'>
                             
                         <div className='flex items-center'><label htmlFor="names">Full names<span className='text-red-500'>*</span></label></div>
                             <input type="text" placeholder='Ex: Nzaramba Innocent' id='names' required className='block w-full p-3 focus:outline-none focus:ring-1 focus:border-gray-400 rounded-full'/>

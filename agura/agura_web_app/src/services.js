@@ -12,18 +12,22 @@ const Services = () => {
 
   return (
     <div className='' ref={headerRef} style={{paddingTop: '3rem'}}>
-      <div className='flex space-x-6'>
-        <div className='border-b-2'>
+      <h2 className='mx-40 text-3xl py-4'>Services Offered</h2>
+      <div className='grid grid-cols-2 gap-x-6 gap-y-6 mx-32'>
+        <div className='shadow-md shadow-gray rounded-2xl'>
           <img src={require('./socialMedia.jpg')} alt="" className='rounded-t-2xl'/>
-          <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eligendi eos error nemo ipsam velit, et ratione culpa molestiae repudiandae quae fuga odit, exercitationem similique, suscipit quaerat maxime amet iusto?</p>
+          <p className='py-4 pl-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eligendi eos error nemo ipsam velit, et ratione culpa molestiae repudiandae quae fuga odit, exercitationem similique, suscipit quaerat maxime amet iusto?</p>
+          <button className='ml-3 mb-6 bg-green-500 p-5 rounded-md hover:bg-green-400 hover:translate-y-2 transition transform'>Read more</button>
         </div>
-        <div className='border-b-2'>
+        <div className='shadow-md shadow-gray rounded-2xl'>
           <img src={require('./socialMedia.jpg')} alt="" className='rounded-t-2xl'/>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aspernatur minus impedit optio asperiores ullam fuga laudantium labore ab hic, totam vero explicabo, et amet veritatis exercitationem, voluptatem cum laboriosam.</p>
+          <p className='py-4 ml-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aspernatur minus impedit optio asperiores ullam fuga laudantium labore ab hic, totam vero explicabo, et amet veritatis exercitationem, voluptatem cum laboriosam.</p>
+          <button className='ml-3 mb-6 bg-green-500 p-5 rounded-md hover:bg-green-400 hover:translate-y-2 transition transform'>Read more</button>
         </div>
-        <div className='border-b-2'>
+        <div className='shadow-md shadow-gray rounded-2xl'>
           <img src={require('./socialMedia.jpg')} alt="" className='rounded-t-2xl'/>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla quasi libero labore enim nobis consequuntur, exercitationem qui dolores sed. Cupiditate aliquam pariatur voluptas aliquid odio, maiores accusamus ipsum voluptatibus dolorum?</p>
+          <p className='py-4 pl-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eligendi eos error nemo ipsam velit, et ratione culpa molestiae repudiandae quae fuga odit, exercitationem similique, suscipit quaerat maxime amet iusto?</p>
+          <button className='ml-3 mb-6 bg-green-500 p-5 rounded-md hover:bg-green-400 hover:translate-y-2 transition transform'>Read more</button>
         </div>
       </div>
       
