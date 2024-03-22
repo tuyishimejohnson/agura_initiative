@@ -20,12 +20,12 @@ const Services = () => {
           <button className='ml-8 mb-6 shadow-lg bg-green-500 p-5 rounded-md hover:bg-green-400 hover:translate-y-2 transition transform'>Read more</button>
         </div>
         <div className='shadow-md shadow-gray rounded-2xl'>
-          <img src={require('./socialMedia.jpg')} alt="" className='rounded-t-2xl'/>
+          <img src={require('./jason-goodman-Oalh2MojUuk-unsplash.jpg')} alt="" className='rounded-t-2xl brightness-5'/>
           <p className='py-4 px-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aspernatur minus impedit optio asperiores ullam fuga laudantium labore ab hic, totam vero explicabo, et amet veritatis exercitationem, voluptatem cum laboriosam.</p>
           <button className='ml-8 mb-6 shadow-lg bg-green-500 p-5 rounded-md hover:bg-green-400 hover:translate-y-2 transition transform'>Read more</button>
         </div>
         <div className='shadow-md shadow-gray rounded-2xl'>
-          <img src={require('./socialMedia.jpg')} alt="" className='rounded-t-2xl'/>
+          <img src={require('./roman-synkevych-fjj7lVpCxRE-unsplash.jpg')} alt="" className='rounded-t-2xl'/>
           <p className='py-4 px-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eligendi eos error nemo ipsam velit, et ratione culpa molestiae repudiandae quae fuga odit, exercitationem similique, suscipit quaerat maxime amet iusto?</p>
           <button className='ml-8 mb-6 shadow-lg bg-green-500 p-5 rounded-md hover:bg-green-400 hover:translate-y-2 transition transform'>Read more</button>
         </div>

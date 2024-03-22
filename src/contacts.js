@@ -11,7 +11,7 @@ const Contacts = () => {
 
   return (
     <div className='' ref={headerRef} style={{paddingTop: '4rem'}}>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum nemo alias, magni et magnam labore vel consectetur temporibus nesciunt quis maiores quam, ab amet at similique quibusdam commodi aliquid facilis.</p>
+      <p>For More information just fill out the form below</p>
     </div>
   )
 }
