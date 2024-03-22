@@ -1,24 +1,26 @@
+import Layout from './layout';
 import HomePage from './homepage';
+import About from './about';
+import Services from './services';
+import Contacts from './contacts';
+import Footer from './footer';
 import './index.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import About from './about';
-import Layout from './layout';
-import Contacts from './contacts';
-import Services from './services';
-import Footer from './footer';
+
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
       <Route path='/' element={< Layout />}>
-            <Route index element={<HomePage/>}/>
+            <Route index element={< HomePage />}/>
             <Route path='about' element={< About />}/>
-            <Route path='contacts' element={< Contacts />}/>
             <Route path='services' element={< Services />}/>
+            <Route path='contacts' element={< Contacts />}/>
           </Route>
+          
       </Routes>
-      <Footer></Footer>
+      <Footer />
     </BrowserRouter>
    
   )
