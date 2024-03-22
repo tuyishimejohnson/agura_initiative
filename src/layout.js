@@ -25,7 +25,7 @@ const Layout = () => {
                 </nav>
             </div>
             <div className='space-x-6'>
-                <button>Login</button>
+                <button><Link to='/login'>Login</Link></button>
                 <button>Sign Up</button>
             </div>
         </div>

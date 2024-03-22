@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
 import { faThumbTack } from '@fortawesome/free-solid-svg-icons'
 import { useRef, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 
 const HomePage = () => {
@@ -40,7 +41,7 @@ const HomePage = () => {
                     </div>
             </div>
             <div className='mt-64  text-center'>
-                <button className='border bg-color_3 px-8 py-5 rounded-lg hover:bg-color_5 hover:translate-y-2 transform transition'>Explore</button>
+                <button className='border bg-color_3 px-8 py-5 rounded-lg hover:bg-color_5 hover:translate-y-2 transform transition'><Link to='/services'>Explore</Link></button>
             </div>
 
             <div className='bg-color_6 mt-12'>
